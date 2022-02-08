@@ -112,7 +112,7 @@ settings:
   lag-compensated-potions: false
 
   # Fixes the eating while running bug
-  fix-eat-while-running: false
+  fix-eat-while-running: true
 
   # Disables delay of all interactions
   instant-interaction: false
