@@ -81,8 +81,8 @@ world-settings:
     view-distance: 10
     mob-spawn-range: 4
     anti-xray:
-      enabled: false
-      engine-mode: 1
+      enabled: true
+      engine-mode: 2
       hide-blocks:
       - 14
       - 15
