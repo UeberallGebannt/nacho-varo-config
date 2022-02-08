@@ -52,7 +52,7 @@ settings:
   save-empty-scoreboard-teams: false
 
   # Enable Fast Math usage.
-  enable-fastmath: false
+  enable-fastmath: true
 
   # Enables Fast Operators, which uses a faster method for managing operators
   fast-operators: false
