@@ -31,7 +31,7 @@ settings:
     enable-plugins-command: true
 
     # Toggles the /reload command
-    enable-reload-command: true
+    enable-reload-command: false
 
     # Toggles the /help command
     enable-help-command: true
