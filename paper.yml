@@ -55,7 +55,7 @@ world-settings:
       dungeon: true
       fortress: true
       mineshaft: true
-      monument: true
+      monument: false
       stronghold: false
       temple: true
       village: true
