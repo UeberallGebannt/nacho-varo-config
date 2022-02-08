@@ -67,7 +67,7 @@ settings:
   anti-crash: true
 
   # Make potion throwing smoother
-  smooth-potting: false
+  smooth-potting: true
 
   # Disables the firewall check when running BungeeCord
   stop-notify-bungee: false
@@ -109,7 +109,7 @@ settings:
     fire-leaf-decay-event: true
 
   # Enables lag compensation throwing potions
-  lag-compensated-potions: false
+  lag-compensated-potions: true
 
   # Fixes the eating while running bug
   fix-eat-while-running: true
