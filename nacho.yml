@@ -94,7 +94,7 @@ settings:
   tile-entity-ticking-time: 20
 
   # Enables anti enderpearl glitch
-  anti-enderpearl-glitch: false
+  anti-enderpearl-glitch: true
 
   # Disables decoding itemstacks when not needed
   stop-decoding-itemstack-on-place: true
