@@ -16,13 +16,13 @@ settings:
   # Changes the brand name of the server.
   # This will show in statistics, server lists, client crashes,
   #  and in the client debug screen. (accessed by pressing F3)
-  brand-name: NachoSpigot
+  brand-name: VaroSpigot
   commands:
     # Toggles the /version command
     enable-version-command: true
     permission:
       # Enables a required permission to use /version
-      version: true
+      version: false
 
       # Enables a required permission to use /plugins
       plugins: true
