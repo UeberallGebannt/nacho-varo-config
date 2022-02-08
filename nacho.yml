@@ -1,0 +1,175 @@
+# This is the main configuration file for NachoSpigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to NachoSpigot,
+# join us in our Discord.
+# 
+# Discord: https://discord.gg/SBTEbSx
+# Github: https://github.com/CobbleSword/NachoSpigot
+# 
+
+
+# Configuration version, do NOT modify this!
+config-version: 6
+settings:
+  # Changes the brand name of the server.
+  # This will show in statistics, server lists, client crashes,
+  #  and in the client debug screen. (accessed by pressing F3)
+  brand-name: NachoSpigot
+
+  # Enables anti enderpearl glitch
+  anti-enderpearl-glitch: false
+
+  # Enables lag compensation throwing potions
+  lag-compensated-potions: false
+
+  # Disable infinisleeper thread usage, just enable this if you know what are you doing.
+  disable-infinisleeper-thread-usage: false
+  event:
+    # Toggles the entity explode event
+    fire-entity-explode-event: true
+
+    # Toggles the player move event
+    fire-player-move-event: true
+
+    # Toggles the leaf decay event
+    fire-leaf-decay-event: true
+
+  # Disables decoding itemstacks when not needed
+  stop-decoding-itemstack-on-place: true
+
+  # Enables a faster cannon entity tracker
+  faster-cannon-tracker: true
+
+  # Fixes the eating while running bug
+  fix-eat-while-running: false
+
+  # Hides projectiles from hidden players
+  hide-projectiles-from-hidden-players: false
+
+  # Toggles whether or not the server should save empty scoreboard teams
+  save-empty-scoreboard-teams: false
+
+  # Kicks players if they try to do an illegal action (e.g. using a creative mode action while not in creative mode.)
+  kick-on-illegal-behavior: true
+
+  # Kicks players if they try to do an action that would/might crash the server
+  anti-crash: true
+
+  # Enable Fast Math usage.
+  enable-fastmath: false
+
+  # Controls the interval for the item-dirty check. Minecraft checks an item every tick to see if it was changed. This can be expensive because it also needs to check all NBT data. Spigot only checks for basic count/data/type data and does a deep check every 20 ticks by default.
+  item-dirty-ticks: 20
+
+  # Options: 0 - Disabled.; 1 - TFO is enabled for outgoing connections (clients).; 2 - TFO is enabled for incoming connections (servers).; 3 - TFO is enabled for both clients and servers.
+  tcp-fastopen-mode: 1
+
+  # Enables Fast Operators, which uses a faster method for managing operators
+  fast-operators: false
+
+  # Make potion throwing smoother
+  smooth-potting: false
+
+  # Enables the built-in anti malware feature
+  anti-malware: false
+  fixed-pools:
+    # Enables fixed thread pool for explosions
+    use-fixed-pools-for-explosions: false
+
+    # The size for the fixed thread pool for explosions.
+    size: 500
+  commands:
+    # Toggles the /version command
+    enable-version-command: true
+    permission:
+      # Enables a required permission to use /version
+      version: true
+
+      # Enables a required permission to use /plugins
+      plugins: true
+
+    # Toggles the /plugins command
+    enable-plugins-command: true
+
+    # Toggles the /reload command
+    enable-reload-command: true
+
+    # Toggles the /help command
+    enable-help-command: true
+  chunk:
+    # The amount of threads used for chunks
+    threads: 2
+
+    # The amount of players for each thread
+    players-per-thread: 50
+
+  # Enables the TCP_NODELAY socket option
+  use-tcp-nodelay: true
+
+  # Disables the firewall check when running BungeeCord
+  stop-notify-bungee: false
+
+  # Ticking time (20 ticks per second) for usage on tile entity operations.
+  tile-entity-ticking-time: 20
+
+  # Optimizes redstone wires.
+  panda-wire: true
+
+  # Disables the fall animation for blocks
+  disabled-block-fall-animation: false
+
+  # Disables delay of all interactions
+  instant-interaction: false
+
+  # Enables the TCP_FASTOPEN socket option
+  use-tcp-fastopen: true
+
+  # Enables packet network shim. Allows ProtocolLib and ProtocolSupport to work, but requires extra memory. Disable this if you don't use these plugins!
+  enable-protocol-shim: true
+world-settings:
+  default:
+    verbose: false
+    entity:
+      # Enables mob AI
+      mob-ai: true
+
+      # Enables mob sound
+      mob-sound: true
+
+      # Enables active ticks for entities
+      entity-activation: true
+
+      # Enables endermite spawning.
+      endermite-spawning: true
+    physics:
+      # Disables physics place
+      disable-place: false
+
+      # Disables physics update
+      disable-update: false
+    explosions:
+      # Changes the radius of explosions to be constant.
+      constant-radius: false
+
+      # Toggles whether the server should use reduced rays when calculating density
+      reduced-density-rays: true
+
+    # Enables lava converting to cobblestone.
+    enable-lava-to-cobblestone: true
+
+    # Enables infinite water sources
+    infinite-water-sources: true
+
+    # Disables sponge absorption
+    disable-sponge-absorption: false
+
+    # Enable unloading chunks
+    unload-chunks: true
+
+    # Enable block operations
+    block-operations: true
+
+    # Toggles whether enchantment tables should be ticked
+    tick-enchantment-tables: true

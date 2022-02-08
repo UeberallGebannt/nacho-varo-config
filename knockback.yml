@@ -1,0 +1,13 @@
+# This is the knockback configuration file for NachoSpigot.
+# As you can see, there isn't much to configure. To add/remove/edit a knockback profile
+# you must use the /kb command. Note that this will impact gameplay so use caution and 
+# make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to NachoSpigot,
+# feel free to join us in our Discord.
+# 
+# Discord: https://discord.gg/SBTEbSx
+
+knockback:
+  current: default
+  profiles: {}

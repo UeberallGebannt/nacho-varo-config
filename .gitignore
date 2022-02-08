@@ -1,0 +1,21 @@
+# Server folders
+logs/
+plugins/
+
+# Worlds
+world/
+world_nether/
+world_the_end/
+
+# Server files
+help.yml
+commands.yml
+permissions.yml
+usercache.json
+whitelist.json
+ops.json
+banned-players.json
+banned-ips.json
+
+# JAR files
+*.jar
