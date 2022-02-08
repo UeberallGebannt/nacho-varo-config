@@ -7,7 +7,12 @@ Download the latest NachoSpigot version [here](https://nightly.link/CobbleSword/
 
 
 ### Changes
-- Disabled the end dimension
-- reduced monster spawn rates
+- disabled the end dimension
+- decreased monster and ambient spawn rates
 - increased animal spawn rates
-- disabled generation of some structures
+- disabled generation of the stronghold and underwater temples
+- enabled anti-xray (engine mode 2)
+- fixed the eating while running bug
+- improved potion throwing
+- enabled various performance patches
+- fixed enderpearl glitch
