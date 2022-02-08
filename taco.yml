@@ -17,10 +17,10 @@ world-settings:
       fire-InventoryMoveItemEvent: true
     fix-east-west-cannoning: false
     redstone-fire-BlockPhysicsEvent: true
-    tnt:
-      optimize-movement: false
-      optimize-liquid-explosions: true
     armor-stand:
       optimize-movement: false
     grass-ignores-light: false
+    tnt:
+      optimize-liquid-explosions: true
+      optimize-movement: false
     disable-falling-block-stacking-at-256: false
